@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<title>MTechDeal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mtdcss.css">
+<link rel="stylesheet" href="mtdcss2.css">
+<style>
+p.solid {border-style: solid;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-sidenav a {padding:20px}
+</style>
+<body>
+
+<!-- Sidenav (hidden by default) -->
+<nav class="w3-sidenav w3-card-2 w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-closenav">Close Menu</a>
+  <a href="index.html" onclick="w3_close()">Home</a>
+  <a href="DiscountCategory.html" onclick="w3_close()">Deals Over 70%</a>
+  <a href="SmartphoneCategory.html" onclick="w3_close()">Smartphones</a>
+  <a href="PCPartsCategory.html" onclick="w3_close()">PC Parts</a>
+  <a href="AudioCategory.html" onclick="w3_close()">Audio</a>
+  <a href="SoftwareCategory.html" onclick="w3_close()">Software</a>
+  <a href="MonitorCategory.html" onclick="w3_close()">Monitor/TV</a>
+  <a href="PCPeripheralCategory.html" onclick="w3_close()">PC Peripherals</a>
+  <a href="SmartphoneAccesoriesCategory.html" onclick="w3_close()">Smartphones Accesories</a>
+  <a href="OtherCategory.html" onclick="w3_close()">Others</a>
+  <a href="#about" onclick="w3_close()">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge w3-padding-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-opennav w3-left w3-hover-text-grey" onclick="w3_open()">?</div>
+    <div class="w3-right">Logo</div>
+    <div class="w3-center"><h2><strong>MTechDeal.my<strong></h2></div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <p class="solid">
+  <h4><strong>Deals Over 70%</strong></h4>
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+	<a href="http://www.amazon.com/Asus-Onhub-Dual-band-wireless-AC1900-router/dp/B017C0HZEO%3Fpsc%3D1%26SubscriptionId%3DAKIAIOFRFAFCXQPZ7CHQ%26tag%3Ddh219-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB017C0HZEO">
+      <img src="mousepad1.jpg" alt="Sandwich" style="width:100%">
+        <h3>Razer Goliath Mousepad</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="http://www.lelong.com.my/xiaomi-redmi-note-3-pro-global-rom-snapdragon-650-16mp-directd-I2515284-2007-01-Sale-I.htm">
+      <img src="asuspc1.jpg" alt="Steak" style="width:100%">
+        <h3>Asus PC</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="pc1.jpg" alt="Cherries" style="width:100%">
+        <h3>All-in-One PC</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="ssd1.jpg" alt="Pasta and Wine" style="width:100%">
+        <h3>Samsung 512GB SSD</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+  </div>
+  </p>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+	<a href="">
+      <img src="redminote3pro.jpg" alt="Popsicle" style="width:100%">
+        <h3>Redmi Note 3 Pro</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="miband2.jpg" alt="Salmon" style="width:100%">
+        <h3>Xiaomi Mi band</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="pinengpb1.jpg" alt="Sandwich" style="width:100%">
+        <h3>Pineng 20000 PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="mipb1.jpg" alt="Croissant" style="width:100%">
+        <h3>Mi PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+  </div>
+  
+  <!--3rd photo grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+	<a href="">
+      <img src="redminote3pro.jpg" alt="Popsicle" style="width:100%">
+        <h3>Redmi Note 3 Pro</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="miband2.jpg" alt="Salmon" style="width:100%">
+        <h3>Xiaomi Mi band</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="pinengpb1.jpg" alt="Sandwich" style="width:100%">
+        <h3>Pineng 20000 PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="mipb1.jpg" alt="Croissant" style="width:100%">
+        <h3>Mi PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+  </div>
+   
+   <!--4th photo grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+	<a href="">
+      <img src="redminote3pro.jpg" alt="Popsicle" style="width:100%">
+        <h3>Redmi Note 3 Pro</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="miband2.jpg" alt="Salmon" style="width:100%">
+        <h3>Xiaomi Mi band</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="pinengpb1.jpg" alt="Sandwich" style="width:100%">
+        <h3>Pineng 20000 PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="mipb1.jpg" alt="Croissant" style="width:100%">
+        <h3>Mi PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+  </div>
+   
+      <!--5th photo grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+	<a href="">
+      <img src="redminote3pro.jpg" alt="Popsicle" style="width:100%">
+        <h3>Redmi Note 3 Pro</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="miband2.jpg" alt="Salmon" style="width:100%">
+        <h3>Xiaomi Mi band</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="pinengpb1.jpg" alt="Sandwich" style="width:100%">
+        <h3>Pineng 20000 PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="mipb1.jpg" alt="Croissant" style="width:100%">
+        <h3>Mi PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+  </div>
+   
+      <!--6th photo grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+	<a href="">
+      <img src="redminote3pro.jpg" alt="Popsicle" style="width:100%">
+        <h3>Redmi Note 3 Pro</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="miband2.jpg" alt="Salmon" style="width:100%">
+        <h3>Xiaomi Mi band</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="pinengpb1.jpg" alt="Sandwich" style="width:100%">
+        <h3>Pineng 20000 PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="mipb1.jpg" alt="Croissant" style="width:100%">
+        <h3>Mi PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+  </div>
+   
+      <!--7th photo grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+	<a href="">
+      <img src="redminote3pro.jpg" alt="Popsicle" style="width:100%">
+        <h3>Redmi Note 3 Pro</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="miband2.jpg" alt="Salmon" style="width:100%">
+        <h3>Xiaomi Mi band</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="pinengpb1.jpg" alt="Sandwich" style="width:100%">
+        <h3>Pineng 20000 PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="mipb1.jpg" alt="Croissant" style="width:100%">
+        <h3>Mi PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+  </div>
+   
+      <!--8th photo grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+	<a href="">
+      <img src="redminote3pro.jpg" alt="Popsicle" style="width:100%">
+        <h3>Redmi Note 3 Pro</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="miband2.jpg" alt="Salmon" style="width:100%">
+        <h3>Xiaomi Mi band</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="pinengpb1.jpg" alt="Sandwich" style="width:100%">
+        <h3>Pineng 20000 PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+    <div class="w3-quarter">
+	<a href="">
+      <img src="mipb1.jpg" alt="Croissant" style="width:100%">
+        <h3>Mi PowerBank</h3>
+        <p>RM40 from RM 130</p>
+    </div>
+  </div>
+  <p class="solid">
+  </p>
+
+ 
+
+  <!-- About Section -->
+  <div class="w3-padding-32 w3-center" id="about">
+    <h2 class="w3-center">About</h2><br>
+    <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>About</b></h4>
+      <h6><i>Home for Tech Deals</i></h6>
+      <p>fsdf</p></div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Contact Us</h3>
+      <p>mtechdeal11.gmail.com</p>
+      <p>Develope <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="IMG-20160219-WA0003" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">K</span><br>
+          <span>fdsfsd</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">dsf</span><br>
+          <span>test</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">London</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Smartphones</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Technology</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Games</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+
+</body>
+</html>
